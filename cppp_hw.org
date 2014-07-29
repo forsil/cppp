@@ -1,0 +1,22 @@
+* c++ primer 课后作业
+
+** Chapter 1
+
+** Chapter 2
+
+** Chapter 3
+
+** Chapter 4
+
+** Chapter 5
+
+** Chapter 6
+*** 6.13
+void f(T), void f(&T),两个函数都没有返回值，不过一个f(T)是传值参数，形参是T的值拷贝。f(&T)是传引用参数，形参是T的引用。
+
+*** 6.14
+形参应该是引用类型：
+void reset(int &i)
+{
+    i = 0;
+}
